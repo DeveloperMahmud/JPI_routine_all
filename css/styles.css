@@ -414,11 +414,27 @@ input[type='checkbox'] {
 .header .fa-stack:hover .fa-stack-2x {
 	opacity: 1;
 }
-
+.img-rtn{
+	padding-bottom: 30px;
+	margin: 20px;
+}
+.img-rtn > img{
+	width: 50%;
+	border: 2px solid #330000;
+	border-radius: 3%;
+}
 
 /*************************/
 /*     Media Queries     */
 /*************************/	
+
+@media (min-width: 300px) {
+
+	.img-rtn > img{
+		width: 100%;
+		margin: 0;
+	}
+}
 /* Min-width 768px */
 @media (min-width: 768px) {
 
